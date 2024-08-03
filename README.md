@@ -12,7 +12,7 @@ Download and install the PostgreSQL from it's official website from link below:
 
 [Download](https://www.postgresql.org/download/)
 
-#### if you are on Linux - Ubuntu distribution here is the command that you can run to download and  install the postgresql
+### if you are on Linux - Ubuntu distribution here is the command that you can run to download and  install the postgresql
 
 ~~~bash
 sudo apt install postgresql
@@ -29,7 +29,7 @@ At the second step you have to create a new user and a database for your django 
 + changing the owner of that database
 + give the all permissions to that user and owner
 
-###### so let's start and connect to postgresql in your command line shell by using psql handler
+### so let's start and connect to postgresql in your command line shell by using psql handler
 
 &nbsp;
 
@@ -37,7 +37,7 @@ At the second step you have to create a new user and a database for your django 
 psql -U username -d database -h localhost -p 5432
 ~~~
 
-###### or you can use this command if you are on ubuntu
+### or you can use this command if you are on ubuntu
 
 &nbsp;
 
@@ -53,7 +53,7 @@ Here is how you can create a new user in postgresql database:
 CREATE USER Aliseyfi WITH PASSWORD 'aliseyfi@123';
 ~~~
 
-###### You can give your own username and password instead of "Aliseyfi" and "aliseyfi@123" password .
+### You can give your own username and password instead of "Aliseyfi" and "aliseyfi@123" password .
 
 #### Note: postgres will make your username to lower case so for example if you give the username as "DAVID" it will be "david" at the end
 
@@ -144,7 +144,7 @@ DATABASES = {
 }
 ~~~
 
-#### Note: you should give password of the new user you created as the value for the 'PASSWORD' Key at above settings
+### Note: you should give password of the new user you created as the value for the 'PASSWORD' Key at above settings
 
 &nbsp;
 
