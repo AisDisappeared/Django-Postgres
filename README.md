@@ -53,7 +53,7 @@ Here is how you can create a new user in postgresql database:
 CREATE USER Aliseyfi WITH PASSWORD 'aliseyfi@123';
 ~~~
 
-### You can give your own username and password instead of "Aliseyfi" and "aliseyfi@123" password .
+#### You can give your own username and password instead of "Aliseyfi" and "aliseyfi@123" password
 
 #### Note: postgres will make your username to lower case so for example if you give the username as "DAVID" it will be "david" at the end
 
