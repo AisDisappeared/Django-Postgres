@@ -3,6 +3,7 @@
 
 Hi guys , I'm Ali seyfi Python Backend Developer and in this repository we are going to connect the django application to
 the postgresql database .
+
 I hope it will be usefull for you !
 
 ## 1- Download and install the postgresql database server
